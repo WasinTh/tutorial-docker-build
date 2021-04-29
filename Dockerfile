@@ -20,7 +20,7 @@ COPY docker_conf/requirements.txt /usr/src/requirements.txt
 WORKDIR /usr/src
 RUN pip install -r requirements.txt --no-cache-dir
 
-ADD ./tmp_django_app /usr/src/django_app
+ADD . /usr/src/django_app
 WORKDIR /usr/src/django_app
 ENTRYPOINT ["/usr/src/django_app/docker-entrypoint.sh"]
 EXPOSE 8000 8001
