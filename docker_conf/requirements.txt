@@ -1,0 +1,16 @@
+Django==3.1.7
+django-cors-headers
+django-environ
+django-extensions
+django-filter
+djangorestframework
+djangorestframework-jwt
+drf-yasg
+factory-boy
+Faker
+ipython
+pytest
+pytest-django
+requests
+uwsgi
+uwsgitop
